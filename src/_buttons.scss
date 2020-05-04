@@ -4,7 +4,8 @@
   background: $bg-color-light;
   border: $border-width solid $primary-color;
   border-radius: $border-radius;
-  color: $primary-color;
+  // color: $primary-color;
+  color: $text-light;
   cursor: pointer;
   display: inline-block;
   font-size: $font-size;
@@ -25,13 +26,16 @@
   &:hover {
     background: $secondary-color;
     border-color: $primary-color-dark;
+    //
+    color: $text-light;
     text-decoration: none;
   }
   &:active,
   &.active {
     background: $primary-color-dark;
     border-color: darken($primary-color-dark, 5%);
-    color: $light-color;
+    // color: $light-color;
+    color: $text-light;
     text-decoration: none;
     &.loading {
       &::after {
@@ -52,12 +56,14 @@
   &.btn-primary {
     background: $primary-color;
     border-color: $primary-color-dark;
-    color: $light-color;
+    // color: $light-color;
+    color: $text-light;
     &:focus,
     &:hover {
       background: darken($primary-color-dark, 2%);
       border-color: darken($primary-color-dark, 5%);
-      color: $light-color;
+      // color: $light-color;
+      color: $text-light;
     }
     &:active,
     &.active {

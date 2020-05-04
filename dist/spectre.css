@@ -557,7 +557,7 @@ html:lang(ko),
   background: black;
   border: .05rem solid #6741d9;
   border-radius: .1rem;
-  color: #6741d9;
+  color: #e9ecef;
   cursor: pointer;
   display: inline-block;
   font-size: .8rem;
@@ -582,7 +582,7 @@ html:lang(ko),
 
 .btn:focus,
 .btn:hover {
-  background: #e7e0f9;
+  background: #896ce2;
   border-color: #5d34d6;
   text-decoration: none;
 }
@@ -1380,7 +1380,7 @@ input.disabled + .form-icon {
 }
 
 .label.label-secondary {
-  background: #e7e0f9;
+  background: #896ce2;
   color: #6741d9;
 }
 
@@ -2478,13 +2478,13 @@ summary.accordion-header::-webkit-details-marker {
 
 .menu .menu-item > a:focus,
 .menu .menu-item > a:hover {
-  background: #e7e0f9;
+  background: #896ce2;
   color: #6741d9;
 }
 
 .menu .menu-item > a:active,
 .menu .menu-item > a.active {
-  background: #e7e0f9;
+  background: #896ce2;
   color: #6741d9;
 }
 
@@ -3125,16 +3125,16 @@ a.text-primary:visited {
 }
 
 .text-secondary {
-  color: #dcd4f6 !important;
+  color: #7f5fdf !important;
 }
 
 a.text-secondary:focus,
 a.text-secondary:hover {
-  color: #cbbef2;
+  color: #6e4adb;
 }
 
 a.text-secondary:visited {
-  color: #ede9fb;
+  color: #9074e3;
 }
 
 .text-gray {
@@ -3221,7 +3221,7 @@ a.text-error:visited {
 }
 
 .bg-secondary {
-  background: #e7e0f9 !important;
+  background: #896ce2 !important;
 }
 
 .bg-dark {
